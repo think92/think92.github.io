@@ -1,1 +1,3 @@
-theme: jekyll-theme-hacker
+name: Sikao Guo
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title

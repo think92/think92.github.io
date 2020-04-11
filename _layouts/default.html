@@ -1,15 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+  <title>{{ page.title }}</title>
+
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
 </head>
 
+
 <body>
-    {% include navigation.html %}
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/cv">CV</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+
     {{ content }}
+
+  </div>
+
+  <footer>
+    <ul>
+      <li><a href="mailto:sikaoguo@gmail.com">email</a></li>
+      <li><a href="https://github.com/think92">github.com/think92</a></li>
+    </ul>
+  </footer>
 </body>
 
 </html>
